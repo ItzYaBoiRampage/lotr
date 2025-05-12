@@ -68,8 +68,8 @@ main {
 .item-content a {
   display: inline-block;
   padding: 0.6em 1.2em;
-  color: #1a1a1a;
-  background: #e3c97b;
+  color: #fdf3df;
+  background: #9d1e1e;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -78,7 +78,7 @@ main {
 
 .item-content a:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px #e3c97b;
+  box-shadow: 0 0 10px #ff5e5e;
 }
 
 footer {
