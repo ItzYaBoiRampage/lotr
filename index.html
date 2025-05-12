@@ -6,6 +6,56 @@
   <title>LOTR Texture Pack Downloads</title>
   <link rel="stylesheet" href="assets/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <style>
+    .item-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      padding: 2em;
+    }
+    .item {
+      display: flex;
+      background: #1d1d1d;
+      border: 1px solid #5a452b;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(198, 163, 79, 0.2);
+    }
+    .item img {
+      width: 180px;
+      height: auto;
+      object-fit: cover;
+    }
+    .item-content {
+      padding: 1em;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .item-content h2 {
+      margin-top: 0;
+      color: #e3c97b;
+    }
+    .item-content p {
+      margin: 0.5em 0 1em 0;
+      color: #d0c5a7;
+    }
+    .item-content a {
+      align-self: flex-start;
+      padding: 0.5em 1em;
+      background: #e3c97b;
+      color: #1a1a1a;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+    .item-content a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #e3c97b;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,27 +66,39 @@
   <main>
     <div class="item-list">
       <section class="item">
-        <h2>Dot Crosshair</h2>
-        <p>Minimal dot-style crosshair for PvP clarity.</p>
-        <a href="downloads/Dot Crosshair.zip" download>📜 Download</a>
+        <img src="assets/preview-custom.png" alt="Dot Crosshair Preview">
+        <div class="item-content">
+          <h2>Dot Crosshair</h2>
+          <p>Minimal dot-style crosshair for PvP clarity.</p>
+          <a href="downloads/Dot Crosshair.zip" download>📜 Download</a>
+        </div>
       </section>
 
       <section class="item">
-        <h2>Lower Fire</h2>
-        <p>Replaces first-person fire animation with a less obstructive version.</p>
-        <a href="downloads/Lower Fire.zip" download>📜 Download</a>
+        <img src="assets/preview-custom.png" alt="Lower Fire Preview">
+        <div class="item-content">
+          <h2>Lower Fire</h2>
+          <p>Replaces first-person fire animation with a less obstructive version.</p>
+          <a href="downloads/Lower Fire.zip" download>📜 Download</a>
+        </div>
       </section>
 
       <section class="item">
-        <h2>Silent Storms</h2>
-        <p>Weather rework with cleaner rain, snow, ash, and sandstorm visuals for better visibility.</p>
-        <a href="downloads/Unobtrusive Weather.zip" download>📜 Download</a>
+        <img src="assets/preview-custom.png" alt="Silent Storms Preview">
+        <div class="item-content">
+          <h2>Silent Storms</h2>
+          <p>Weather rework with cleaner rain, snow, ash, and sandstorm visuals for better visibility.</p>
+          <a href="downloads/Unobtrusive Weather.zip" download>📜 Download</a>
+        </div>
       </section>
 
       <section class="item">
-        <h2>Mithril Battleaxe</h2>
-        <p>New design for Mithril battleaxes with sharper edges and custom texture.</p>
-        <a href="downloads/Mithril Battleaxe.zip" download>📜 Download</a>
+        <img src="assets/preview-custom.png" alt="Mithril Battleaxe Preview">
+        <div class="item-content">
+          <h2>Mithril Battleaxe</h2>
+          <p>New design for Mithril battleaxes with sharper edges and custom texture.</p>
+          <a href="downloads/Mithril Battleaxe.zip" download>📜 Download</a>
+        </div>
       </section>
     </div>
   </main>
